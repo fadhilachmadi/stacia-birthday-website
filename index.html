@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stacia Banget Nih</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+  <body>
+    <div id="navbar">
+      <h1>Stacia</h1>
+    </div>
+    <div id="opening-flex">
+      <div class="opening-box-left">
+        <img
+          class="image-big"
+          src="./Assets/stacia-gede.png"
+          alt="stacia-gede"
+          style="display: block"
+        />
+        <img class="image-big" src="./Assets/Stacia2.png" alt="stacia-gede" />
+        <img class="image-big" src="./Assets/Stacia3.png" alt="stacia-gede" />
+      </div>
+      <div class="opening-box-right">
+        <h1>Happy Birthday</h1>
+        <p>
+          Eits jangan nyengir dulu, yuk coba kenal diri lu lebih jauh!
+        </p>
+        <div class="gambar">
+          <img
+            class="image-small"
+            src="./Assets/stacia-gede.png"
+            alt=""
+            onclick="changeImage(0)"
+          />
+        </div>
+        <div class="gambar">
+          <img
+            class="image-small"
+            src="./Assets/Stacia2.png"
+            alt=""
+            onclick="changeImage(1)"
+          />
+        </div>
+        <div class="gambar">
+          <img
+            class="image-small"
+            src="./Assets/Stacia3.png"
+            alt=""
+            onclick="changeImage(2)"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="culture">
+      <h2>Her Culture</h2>
+      <div class="culture-flex">
+        <div class="culture-box">
+          <div class="culture-image">
+            <img src="./Assets/stacia-gede.png" alt="" />
+          </div>
+          <div class="culture-content">
+            <h3>Procastinating</h3>
+            <p>
+              Disebut budaya, tapi terlihat seperti kutukan. Hal ini sering
+              terjadi dan berujung lupa untuk melakukan suatu kewajiban. Solusi
+              yang sering hadir ke permukaan adalah kata "maaf" dibarengi dengan
+              sticker pura-pura menyesal.
+            </p>
+          </div>
+        </div>
+        <div class="culture-box">
+          <div class="culture-image">
+            <img src="./Assets/Stacia2.png" alt="" />
+          </div>
+          <div class="culture-content">
+            <h3>Slow Resp</h3>
+            <p>
+              Sebuah sifat yang menyebabkan seseorang tidak bisa merespon
+              panggilan dengan cepat.Tidak ada yang tahu pasti mengapa Slow Resp
+              kerap kali terjadi pada seseorang karena satu-satunya indikasi
+              sifat ini adalah kata "sbb" yang sering sekali diucapkan sebagai
+              bentuk pembenaran diri
+            </p>
+          </div>
+        </div>
+        <div class="culture-box">
+          <div class="culture-image">
+            <img src="./Assets/Stacia3.png" alt="" />
+          </div>
+          <div class="culture-content">
+            <h3>Swearing</h3>
+            <p>
+              Janji yang tak pernah terealisasikan. Pernyataan sederhana "gua
+              janji" yang tak pernah ditepati. Bagaikan langit di malam hari,
+              janjinya ya gitu, "gelap". Nilai hidup yang sangat buruk!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimony">
+      <h2>Testimonials</h2>
+      <div class="testimony-flex">
+        <a class="arrow-prev" onclick="moveSlide(-1)">❮</a>
+        <div class="testimony-slide" style="display: block">
+          <p>
+            "Selama setahun kerja bareng cia, cia sering qc design
+            <span>h-1, malem-malem</span> lagi huh"
+          </p>
+          <p>- Jessika -</p>
+        </div>
+        <div class="testimony-slide">
+          <p>
+            "Menyedihkan! Bekerja bersama stacia di 3 bulan terakhir terasa
+            layaknya <span>mimpi buruk</span>!"
+          </p>
+          <p>- Irfan -</p>
+        </div>
+        <div class="testimony-slide">
+          <p>
+            "Cia itu nggak pelit, tapi <span>perhitungan</span> dan dari dia gue
+            belajar kalau santai ama bodoamat itu tipis :)"
+          </p>
+          <p>- Vini -</p>
+        </div>
+        <div class="testimony-slide">
+          <p>
+            "Regen salah ruangan, Rajum ketinggalan,
+            <span>jangan berharap</span> banyak lah"
+          </p>
+          <p>- Fadhil -</p>
+        </div>
+        <div class="testimony-slide">
+          <p>
+            "Stacia itu <span>egois</span>, lebih memilih bermain
+            <span>game</span> daripada tanggung jawabnya di <span>BNCC</span>"
+          </p>
+          <p>- Dio -</p>
+        </div>
+        <div class="testimony-slide">
+          <p>
+            "Setelah kenal Stacia hampir 2 tahun, menurut gw Stacia orang yang
+            seru buat diajak ngobrol (dan <span>mengajarkan ghibah</span>)"
+          </p>
+          <p>- Queen -</p>
+        </div>
+        <a class="arrow-next" onclick="moveSlide(1)">❯</a>
+      </div>
+    </div>
+    <div id="closing">
+
+      <div class="closing-flex">
+        <h2>Makan nasi, campur kuah. </br>Makasi, jangan banyak tingkah</h2>
+        <div class="closing-video">
+          <iframe 
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/GE4nBgpNTUM"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          
+        ></iframe>
+        </div>
+
+      </div>
+        <h4>Made with love by PR & Friends</h4>
+
+      </div>
+
+    </div>
+
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

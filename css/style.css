@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: h1;
+  font-size: 5em;
+  margin: 0;
+  text-align: left;
+}
+
+p {
+  color: black;
+  font-family: p;
+  text-align: left;
+  display: inline-block;
+  margin: 2em 0em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0em 0em 0.25em 0em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+#navbar {
+  height: auto;
+}
+
+#navbar h1 {
+  font-size: 2em;
+  margin: 0em 1em 0em 1em;
+}
+
+#opening-flex {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 650px;
+  background-attachment: fixed;
+}
+
+.opening-box-left,
+.opening-box-right {
+  width: 100%;
+  margin-top: 10em;
+  text-align: center;
+}
+
+.opening-box-left img {
+  max-width: 20em;
+  display: none;
+  margin: 2em 2em 2em 7em;
+  animation-name: goyang;
+  animation-duration: 3s;
+}
+
+@keyframes goyang {
+  25% {
+    transform: translateY(1.5em);
+  }
+  50% {
+    transform: translateY(-1.5em);
+  }
+  100% {
+    transform: translateY(0, 5em);
+  }
+
+}
+.opening-box-right {
+  text-align: left;
+}
+
+.opening-box-right p {
+  text-align: justify;
+  padding: 0em 8em 0em 0em;
+  font-size: larger;
+}
+
+.gambar {
+  display: inline-block;
+  transition-duration: 1s;
+
+  margin-right: 5em;
+}
+.gambar:hover {
+
+  animation-name: goyang;
+  animation-duration: 3s;
+}
+
+.image-small {
+  display: inline-block;
+  cursor: pointer;
+  max-width: 7em;
+}
+
+.image-big {
+  transition-duration: 1s;
+}
+
+#culture {
+  background-color: white;
+  text-align: center;
+  height: auto;
+}
+
+.culture-flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 0em 1.5em;
+}
+
+.culture-box {
+  padding-right: 1.5vw;
+  width: 100%;
+  text-align: left;
+  display: flex;
+}
+
+.culture-box img {
+  max-width: 10em;
+
+}
+
+.culture-box img:hover{
+  cursor: pointer;
+  animation-name: goyang-dikit;
+  animation-duration: 1.5s;
+}
+
+@keyframes goyang-dikit {
+  50% {
+    transform: translateY(1.5em);
+  }
+
+  100% {
+    transform: translateY(1, 5em);
+  }
+
+}
+
+.culture-content {
+  padding-left: 1em;
+}
+
+.culture-content p {
+  text-align: justify;
+  width: auto;
+  margin-top: 0;
+}
+
+#testimony {
+  background-color: white;
+  height: 100%;
+  text-align: center;
+  margin-top: 5em;
+}
+
+.testimony-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.arrow-prev,
+.arrow-next {
+  width: auto;
+  height: 100%;
+  font-size: 5vw;
+  color: black;
+  cursor: pointer;
+  transition-duration: 0.25s;
+  margin-top: 5vw;
+}
+
+.arrow-next:hover, .arrow-prev:hover{
+  color: grey;
+}
+
+#testimony p {
+  text-align: center;
+  display: block;
+  padding: 0em 2.5em;
+  margin-top: 1em;
+}
+
+.testimony-slide {
+  height: 100%;
+  text-align: center;
+  transition-duration: 1s;
+  display: none;
+  width: 50%;
+}
+
+
+
+.testimony-slide p {
+  font-size: 2em;
+  animation-name: geser;
+  animation-duration: 2s;
+  margin-bottom: 0;
+}
+
+@keyframes geser{
+  0% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.testimony-slide span {
+  font-weight: bold;
+}
+
+#closing {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(../Assets/background.jpg);
+  background-blend-mode: overlay;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-top: 5em;
+  padding-top: 5em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#closing h2 {
+  text-align: justify;
+  border-radius: 5em;
+  text-align: left;
+  font-size: 4em;
+  margin: 0em;
+  color: white;
+  padding-right: 0em;
+  
+}
+
+#closing h4 {
+
+  text-align: left;
+  color: white;
+  padding-right: 0em;
+  font-weight: 100;
+  font-size: 1.25em;
+  margin: 5em 0em 2em 2em;
+}
+
+.closing-flex{
+  display: flex;
+  margin: 0em 2em 0em 2em;
+}
+
+.closing-video{
+  text-align: center;
+  margin-right: 5em;
+}

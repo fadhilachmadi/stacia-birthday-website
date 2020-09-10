@@ -1,0 +1,66 @@
+@media only screen and (max-width:800px) {
+
+  #opening-flex{
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .opening-box-left img {
+    max-width: 20em;
+    display: none;
+    margin: 2em 2em 2em 2em;
+    animation-name: goyang;
+    animation-duration: 3s;
+}
+
+  .opening-box-right{
+    margin: 0;
+    
+  }
+
+  .opening-box-right h1{
+    text-align: center;
+  }
+
+  .opening-box-right p{
+    text-align: center;
+    margin: 1em 1em 0em;
+    padding: 0;
+  }
+
+  .gambar{
+    margin: 0;
+  }
+
+  .culture-flex, .culture-box, .closing-flex{
+    flex-wrap: wrap;
+  }
+
+  .culture-image, .culture-content{
+    text-align: center;
+    width: 100%;
+  }
+
+  #testimony p{
+    padding: 0;
+    font-size: 1.25em;
+  }
+
+  .arrow-prev, .arrow-next{
+    font-size: 10vw;
+    margin: 1.5em 0em;
+  }
+
+  #closing h2{
+    text-align: center;
+    font-size: 3em;
+  }
+
+  #closing h4, .closing-video{
+    text-align: center;
+    margin: 2em 0em 0em 0em;
+  }
+  
+
+
+}
