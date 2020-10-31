@@ -1,7 +1,7 @@
 # stacia-birthday-website
 <h3> Project Objective </h3>
 Merupakan sebuah project yang bertujuan sebagai hadiah ulang tahun teman. Project ini juga sekaligus menjadi kesempatan saya dalam berlatih mendalami animasi, javascript, jquery.
-Untuk hasil website dapat dilihat disini: https://fadhilachmadi.github.io/stacia-birthday-website/ atau https://staciabangetnih.000webhostapp.com.
+Untuk hasil website dapat dilihat disini: https://fadhilachmadi.github.io/stacia-birthday-website/
 
 <h3> Project Result </h3>
   <p> Aplikasi To-Do-List terdiri dari beberapa fitur, seperti berikut</p>
@@ -20,4 +20,4 @@ Untuk hasil website dapat dilihat disini: https://fadhilachmadi.github.io/stacia
   </li>
   </ul>
 
-Note: Isi dari website ini hanya sebagai hiburan untuk saya dan teman-teman, sehingga isi dari konten tidak 100% benar. Dengan persetujuan bersama, saya dapat meng-upload website ini di Github Pages dan free domain (00webhostapp.com). Untuk sementara, website ini bersifat non-responsif. Kedepannya akan dikembangkan menjadi website responsif
+Isi dari website ini hanya sebagai hiburan untuk saya dan teman-teman, sehingga isi dari konten tidak 100% benar. Dengan persetujuan bersama, saya dapat meng-upload website ini di Github Pages. Website ini sudah bersifat responsif dengan mobile device
